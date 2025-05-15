@@ -1,0 +1,17 @@
+{
+  "name": "instagram-migration",
+  "version": "1.0.0",
+  "description": "Prepared Node.js app with migration files for PostgreSQL DB",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node-pg-migrate"
+  },
+  "keywords": [],
+  "author": "Oleh Zinchenko",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "node-pg-migrate": "^7.9.1",
+    "pg": "^8.16.0"
+  }
+}
